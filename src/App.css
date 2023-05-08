@@ -74,9 +74,28 @@
   color: var(--pg1-font-color);
 }
 
-.Social-icons{
-  border: 1px solid #272727;
+.Social-icons-gh{
   max-height: 10vh;
   max-width: 10vh;
 }
 
+.Social-icons-ig{
+  max-height: 7.5vh;
+  max-width: 7.5vh;
+  margin-left: -0.5vh;
+  margin-bottom: 1.15vh;
+}
+
+.Social-icons-sp{
+  max-height: 6vh;
+  max-width: 6vh;
+  margin-bottom: 2.65vh;
+  margin-left: 2.25vh;
+}
+
+.Social-icons-md{
+  max-height: 8vh;
+  max-width: 8vh;
+  margin-bottom: 0.5vh;
+  margin-left: 1.35vh;
+}
