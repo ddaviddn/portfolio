@@ -74,6 +74,9 @@
   color: var(--pg1-font-color);
 }
 
-/*.App-link {*/
-/*  color: #61dafb;*/
-/*}*/
+.Social-icons{
+  border: 1px solid #272727;
+  max-height: 10vh;
+  max-width: 10vh;
+}
+
