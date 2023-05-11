@@ -7,6 +7,10 @@
 /*  !*--pg1-font-color: var(--dark-col-main);*!*/
 /*}*/
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
