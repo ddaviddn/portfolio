@@ -2,6 +2,18 @@ import '../../App.css';
 import StaticHeader from "../StaticHeaderLight";
 import tokyoImage from "../../assets/PersonalImages/vibrant_tokyo.jpeg";
 import japanNightImage from "../../assets/PersonalImages/jap_nite_sky.jpg";
+import chicagoApt from "../../assets/PersonalImages/cago.jpg";
+import tokyoSkyline from "../../assets/PersonalImages/tokyo_skyline.jpg";
+import herRooftop from "../../assets/PersonalImages/her_rooftop.jpg";
+import indianaBeach from "../../assets/PersonalImages/indiana_beach.jpg";
+import indianaCamp from "../../assets/PersonalImages/indiania_camp.jpg";
+import chicagoSushi from "../../assets/PersonalImages/chicago_sushi.jpg";
+import interior1 from "../../assets/PersonalImages/interior1.jpg";
+import interior2 from "../../assets/PersonalImages/interior2.jpg";
+import korCouple from "../../assets/PersonalImages/kor_couple.jpg";
+import orlando from "../../assets/PersonalImages/orlando.jpg";
+import crHotel from "../../assets/PersonalImages/cr_hotel.jpg";
+import crOffice from "../../assets/PersonalImages/cr_office.jpg";
 
 function HomePage() {
     return (<>
@@ -19,7 +31,9 @@ function HomePage() {
                             georgia <p/> institute of technology
                             by night.
                         </code>
-                        <p style={{marginTop: '50px'}}/>
+                        <p/>
+                        <hr style={{width: '100%'}}/>
+                        {/*<p />*/}
                         <div/>
                         {/*<hr className="rounded">*/}
 
@@ -42,7 +56,7 @@ function HomePage() {
                                 watching films that have positive emotional and creative impact on one's self. <p/>
                             </code>
                             <code style={{fontSize: '20px', marginLeft: '30px'}}>
-                                i appreciate dystopian, psychological thrillers, korean crime. <p/>
+                                i appreciate dystopian, psychological thrillers, romance, and crime movies. <p/>
                             </code>
                         </code>
                     </p>
@@ -51,7 +65,78 @@ function HomePage() {
             </div>
             <div className="section">
                 <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={tokyoSkyline} alt="jap_night"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={japanNightImage} alt="jap_night"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={chicagoApt} alt="chicago"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={herRooftop} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={korCouple} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={indianaBeach} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={indianaCamp} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={chicagoSushi} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={interior1} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={orlando} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={interior2} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={crHotel} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={crOffice} alt="rooftop"/>
+                </div>
+            </div>
+            <div className="section">
+                <StaticHeader/>
+                <div className="App-body-light-full">
+                    <p>
+                        <code>end.</code>
+                    </p>
+                    <p>
+                        <code style={{fontSize: "25px"}}>more images will appear as I continue exploring the world :)</code>
+                    </p>
                 </div>
             </div>
         </div>

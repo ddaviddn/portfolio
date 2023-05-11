@@ -11,7 +11,7 @@ function StaticHeader() {
                 <a href="/personal">personal</a>
             </p>
             <p>
-                <a href="/">cv</a>
+                <a href="/cv">cv</a>
             </p>
             <p>
                 <a href="/">contact</a>

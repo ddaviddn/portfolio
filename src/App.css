@@ -173,17 +173,38 @@
   /*top: 12.5vh;*/
   /*right: 20vh;*/
   border-radius: 5px;
-  height: 85%;
+  height: 90%;
   opacity: 1;
   transition: .5s ease;
 }
 
-.App-personal-img:hover{
-  opacity: 0.7;
+.App-personal-img:hover {
+  opacity: 0.9;
 }
 
-.App-personal-follow-img:hover{
-  opacity: 0.7;
+.App-personal-follow-img:hover {
+  opacity: 0.9;
+}
+
+.App-cv-body{
+  border-style: double;
+  border-width: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  border-color: var(--pg1-font-color);
+  background: var(--pg1-bg-color);
+
+}
+
+.image-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .Social-icons-gh{

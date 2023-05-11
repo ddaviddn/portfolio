@@ -5,12 +5,21 @@ import './index.css';
 import App from './App';
 import ErrorPage from "./components/ErrorPage";
 import PersonalPage from "./components/PersonalPage/PersonalPage";
+import CVPage from "./components/CVPage/CVPage";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <App />,
         errorElement: <ErrorPage/>
+    },
+    {
+        path: "/personal",
+        element: <PersonalPage />
+    },
+    {
+        path: "/cv",
+        element: <CVPage />
     },
     {
         path: "/personal",
