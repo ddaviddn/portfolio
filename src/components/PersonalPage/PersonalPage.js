@@ -49,8 +49,10 @@ function HomePage() {
                     <img className="App-personal-img" src={tokyoImage} alt="vibrant_skyline"/>
                 </div>
             </div>
-            <div className="App-body-light-full section">
-                <img className="App-personal-follow-img" src={japanNightImage} alt="jap_night"/>
+            <div className="section">
+                <div className="App-body-light-full">
+                    <img className="App-personal-follow-img" src={japanNightImage} alt="jap_night"/>
+                </div>
             </div>
         </div>
     </>);
