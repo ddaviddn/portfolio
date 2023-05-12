@@ -4,8 +4,8 @@ import tokyoImage from "../../assets/PersonalImages/vibrant_tokyo.jpeg";
 import japanNightImage from "../../assets/PersonalImages/jap_nite_sky.jpg";
 import chicagoApt from "../../assets/PersonalImages/cago.jpg";
 import tokyoSkyline from "../../assets/PersonalImages/tokyo_skyline.jpg";
-import herRooftop from "../../assets/PersonalImages/her_rooftop.jpg";
 import indianaBeach from "../../assets/PersonalImages/indiana_beach.jpg";
+import indianaBeach2 from "../../assets/PersonalImages/beach.jpg";
 import indianaCamp from "../../assets/PersonalImages/indiania_camp.jpg";
 import chicagoSushi from "../../assets/PersonalImages/chicago_sushi.jpg";
 import interior1 from "../../assets/PersonalImages/interior1.jpg";
@@ -37,25 +37,25 @@ function HomePage() {
                         <div/>
                         {/*<hr className="rounded">*/}
 
-                        <code style={{marginTop: '40px', fontSize: '28px'}}>
+                        <code style={{marginTop: '35px', fontSize: '25px'}}>
                             outside of learning, i enjoy: <p/>
                             <code/>
-                            <code style={{fontSize: '20px', marginLeft: '30px'}}>
+                            <code style={{fontSize: '18px', marginLeft: '30px'}}>
                                 listening to music and playing guitar. <p/>
                             </code>
-                            <code style={{fontSize: '20px', marginLeft: '30px'}}>
+                            <code style={{fontSize: '18px', marginLeft: '30px'}}>
                                 i like indie, alternative, rock (70's +), classical, jpn. city pop, opm. <p/>
                             </code>
-                            <code style={{fontSize: '20px', marginLeft: '30px'}}>
-                                traveling and taking photos of the world. <p/>
+                            <code style={{fontSize: '18px', marginLeft: '30px'}}>
+                                traveling and taking vibrant and bright photos of the world. <p/>
                             </code>
-                            <code style={{fontSize: '20px', marginLeft: '30px'}}>
-                                i enjoy photos that can capture nostalgia and human emotion. <p/>
+                            <code style={{fontSize: '18px', marginLeft: '30px'}}>
+                                i enjoy photos that can capture nostalgia and emotions. <p/>
                             </code>
-                            <code style={{fontSize: '20px', marginLeft: '30px'}}>
-                                watching films that have positive emotional and creative impact on one's self. <p/>
+                            <code style={{fontSize: '18px', marginLeft: '30px'}}>
+                                watching films that are emotionally impactful and inspire creativity. <p/>
                             </code>
-                            <code style={{fontSize: '20px', marginLeft: '30px'}}>
+                            <code style={{fontSize: '18px', marginLeft: '30px'}}>
                                 i appreciate dystopian, psychological thrillers, romance, and crime movies. <p/>
                             </code>
                         </code>
@@ -79,8 +79,8 @@ function HomePage() {
                 </div>
             </div>
             <div className="section">
-                <div className="App-body-light-full">
-                    <img className="App-personal-follow-img" src={herRooftop} alt="rooftop"/>
+                <div className="App-body-light-full" >
+                    <img className="App-personal-follow-img" src={indianaBeach2} alt="rooftop"/>
                 </div>
             </div>
             <div className="section">
@@ -103,21 +103,21 @@ function HomePage() {
                     <img className="App-personal-follow-img" src={chicagoSushi} alt="rooftop"/>
                 </div>
             </div>
-            <div className="section">
-                <div className="App-body-light-full">
-                    <img className="App-personal-follow-img" src={interior1} alt="rooftop"/>
-                </div>
-            </div>
+            {/*<div className="section">*/}
+            {/*    <div className="App-body-light-full">*/}
+            {/*        <img className="App-personal-follow-img" src={interior1} alt="rooftop"/>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={orlando} alt="rooftop"/>
                 </div>
             </div>
-            <div className="section">
-                <div className="App-body-light-full">
-                    <img className="App-personal-follow-img" src={interior2} alt="rooftop"/>
-                </div>
-            </div>
+            {/*<div className="section">*/}
+            {/*    <div className="App-body-light-full">*/}
+            {/*        <img className="App-personal-follow-img" src={interior2} alt="rooftop"/>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={crHotel} alt="rooftop"/>

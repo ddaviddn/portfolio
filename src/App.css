@@ -1,6 +1,13 @@
 :root {
-  --light-col-main: #fbf7f2;
-  --dark-col-main: #272727;
+  /*original white*/
+  /*--light-col-main: #fbf7f2;*/
+  /*rice*/
+  /*--light-col-main: #faf5ef;*/
+  /*porcelain*/
+  --light-col-main: #fffefc;
+
+  /*--dark-col-main: #272727;*/
+  --dark-col-main: #242124;
   --icon_sz: 5vh;
   --icon-space-between: 0.4;
   /*--pg1-bg-color: var(--light-col-main);*/
@@ -139,21 +146,21 @@
 
 .App-personal-text{
   position: absolute;
-  font-size: 75px;
+  font-size: 50px;
   top: 12.5vh;
-  left: 20vh;
+  left: 10vh;
 }
 
 .App-personal-text-small{
   position: absolute;
-  font-size: 30px;
-  top: 35vh;
+  font-size: 25px;
+  top: 25vh;
   left: 10vh;
 }
 
 .App-personal-text-smallest{
   position: absolute;
-  font-size: 20px;
+  font-size: 15px;
   /*top: 30vh;*/
   /*left: 10vh;*/
 }
@@ -163,7 +170,7 @@
   top: 12.5vh;
   right: 20vh;
   border-radius: 2px;
-  height: 85%;
+  height: 80%;
   opacity: 1;
   transition: .5s ease;
 }
@@ -190,10 +197,33 @@
   border-style: double;
   border-width: 5px;
   border-radius: 10px;
-  padding: 10px;
+  margin-top: 15px;
+  padding: 5px;
   border-color: var(--pg1-font-color);
   background: var(--pg1-bg-color);
+}
 
+.App-cv-contact{
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: -15px;
+}
+
+.App-cv-subject-date{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 35px;
+  margin-right: 30px;
+  margin-top: -48px;
+}
+
+.App-cv-content{
+  font-size: 18px;
+  margin-left: 35px;
+}
+
+.Subject{
+  font-size: 18px;
 }
 
 .image-text {

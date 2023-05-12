@@ -11,6 +11,10 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+/*ul {*/
+/*  padding-left: 0;*/
+/*}*/
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
