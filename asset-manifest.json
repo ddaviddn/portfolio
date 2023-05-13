@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e62366a2.css",
-    "main.js": "/portfolio/static/js/main.3c070d84.js",
+    "main.js": "/portfolio/static/js/main.b76dba42.js",
     "static/media/indiania_camp.jpg": "/portfolio/static/media/indiania_camp.4ba85d8f9f01b7aee141.jpg",
     "static/media/cr_office.jpg": "/portfolio/static/media/cr_office.b738bf16148468b59950.jpg",
     "static/media/cr_hotel.jpg": "/portfolio/static/media/cr_hotel.a0ab930db73478368458.jpg",
@@ -22,10 +22,10 @@
     "static/media/spotify.svg": "/portfolio/static/media/spotify.c30989553fb5358a13d782248daf2561.svg",
     "index.html": "/portfolio/index.html",
     "main.e62366a2.css.map": "/portfolio/static/css/main.e62366a2.css.map",
-    "main.3c070d84.js.map": "/portfolio/static/js/main.3c070d84.js.map"
+    "main.b76dba42.js.map": "/portfolio/static/js/main.b76dba42.js.map"
   },
   "entrypoints": [
     "static/css/main.e62366a2.css",
-    "static/js/main.3c070d84.js"
+    "static/js/main.b76dba42.js"
   ]
 }
