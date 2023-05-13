@@ -9,20 +9,20 @@ import CVPage from "./components/CVPage/CVPage";
 
 const router = createBrowserRouter([
     {
-        path: "/portfolio",
+        path: "/",
         element: <App />,
         errorElement: <ErrorPage/>
     },
     {
-        path: "/portfolio/personal",
+        path: "/personal",
         element: <PersonalPage />
     },
     {
-        path: "/portfolio/cv",
+        path: "/cv",
         element: <CVPage />
     },
     {
-        path: "/portfolio/personal",
+        path: "/personal",
         element: <PersonalPage />
     }
 ])
