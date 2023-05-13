@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e62366a2.css",
+    "main.js": "/portfolio/static/js/main.3c070d84.js",
+    "static/media/indiania_camp.jpg": "/portfolio/static/media/indiania_camp.4ba85d8f9f01b7aee141.jpg",
+    "static/media/cr_office.jpg": "/portfolio/static/media/cr_office.b738bf16148468b59950.jpg",
+    "static/media/cr_hotel.jpg": "/portfolio/static/media/cr_hotel.a0ab930db73478368458.jpg",
+    "static/media/cago.jpg": "/portfolio/static/media/cago.250805ff4c9fe5877dab.jpg",
+    "static/media/chicago_sushi.jpg": "/portfolio/static/media/chicago_sushi.114c0f4c4ad1410cfb6f.jpg",
+    "static/media/indiana_beach.jpg": "/portfolio/static/media/indiana_beach.e4f5ee73266e2ca35649.jpg",
+    "static/media/orlando.jpg": "/portfolio/static/media/orlando.c5dc44822b1cebb89652.jpg",
+    "static/media/beach.jpg": "/portfolio/static/media/beach.c0b936f90d4bc256e863.jpg",
+    "static/media/jap_nite_sky.jpg": "/portfolio/static/media/jap_nite_sky.a85fc1f6b53c4c723e6b.jpg",
+    "static/media/tokyo_skyline.jpg": "/portfolio/static/media/tokyo_skyline.dee716e153d8c460f3ae.jpg",
+    "static/media/interior1.jpg": "/portfolio/static/media/interior1.7837f76d641f0da6d90b.jpg",
+    "static/media/interior2.jpg": "/portfolio/static/media/interior2.7b77cb86ff9de2e3487d.jpg",
+    "static/media/vibrant_tokyo.jpeg": "/portfolio/static/media/vibrant_tokyo.9870fe57f11f85624fbb.jpeg",
+    "static/media/kor_couple.jpg": "/portfolio/static/media/kor_couple.b0a9c9ad57e63f98e077.jpg",
+    "static/media/github.svg": "/portfolio/static/media/github.44b3b2e79c8ddbdce095f42b123a266d.svg",
+    "static/media/medium.svg": "/portfolio/static/media/medium.98e3d813df966c59f04fc0364fd1dad3.svg",
+    "static/media/instagram.svg": "/portfolio/static/media/instagram.9f5ee8d4d4231139866107cd70a26b61.svg",
+    "static/media/spotify.svg": "/portfolio/static/media/spotify.c30989553fb5358a13d782248daf2561.svg",
+    "index.html": "/portfolio/index.html",
+    "main.e62366a2.css.map": "/portfolio/static/css/main.e62366a2.css.map",
+    "main.3c070d84.js.map": "/portfolio/static/js/main.3c070d84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e62366a2.css",
+    "static/js/main.3c070d84.js"
+  ]
+}
