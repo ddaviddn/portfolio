@@ -10,7 +10,8 @@ import CVPage from "./components/CVPage/CVPage";
 
 // const path_var = process.env.REACT_APP_FOR_PATH;
 // const path_var = 'portfolio'
-const path_var = 'portfolio'
+// const path_var = 'portfolio'
+const path_var = ''
 
 // const router = createBrowserRouter([
 const router = createHashRouter([
@@ -20,15 +21,15 @@ const router = createHashRouter([
         errorElement: <ErrorPage/>,
     },
     {
-        path: path_var + "/personal",
+        path: path_var + "#personal",
         element: <PersonalPage/>
     },
     {
-        path: path_var + "/cv",
+        path: path_var + "#cv",
         element: <CVPage/>
     },
     {
-        path: path_var + "/personal",
+        path: path_var + "#personal",
         element: <PersonalPage/>
     }
 ])
