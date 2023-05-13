@@ -9,7 +9,7 @@ function StaticHeader() {
         <div className="App-header">
             <></>
             <p>
-                <a href="/">home</a>
+                <a href={path_var+"/"}>home</a>
             </p>
             <p>
                 <a href={path_var+"/personal"}>personal</a>
