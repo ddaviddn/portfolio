@@ -1,6 +1,6 @@
 import '../../App.css';
 import StaticHeader from "../StaticHeaderLight";
-import tokyoImage from "../../assets/PersonalImages/vibrant_tokyo.jpeg";
+import tokyoImage from "../../assets/PersonalImages/tokyo_vibrant.jpg";
 import japanNightImage from "../../assets/PersonalImages/jap_nite_sky.jpg";
 import chicagoApt from "../../assets/PersonalImages/cago.jpg";
 import tokyoSkyline from "../../assets/PersonalImages/tokyo_skyline.jpg";
