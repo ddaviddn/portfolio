@@ -7,22 +7,24 @@ import ErrorPage from "./components/ErrorPage";
 import PersonalPage from "./components/PersonalPage/PersonalPage";
 import CVPage from "./components/CVPage/CVPage";
 
+const path_var = process.env.REACT_APP_FOR_PATH;
+
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: path_var + "/",
         element: <App />,
         errorElement: <ErrorPage/>
     },
     {
-        path: "/personal",
+        path: path_var + "/personal",
         element: <PersonalPage />
     },
     {
-        path: "/cv",
+        path: path_var + "/cv",
         element: <CVPage />
     },
     {
-        path: "/personal",
+        path: path_var + "/personal",
         element: <PersonalPage />
     }
 ])

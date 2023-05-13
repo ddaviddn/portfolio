@@ -1,20 +1,22 @@
 import '../App.css';
 
+const path_var = process.env.REACT_APP_FOR_PATH;
+
 function StaticHeader() {
     return (<>
         <div className="App-header">
             <></>
             <p>
-                <a href="/">home</a>
+                <a href={path_var + "/"}>home</a>
             </p>
             <p>
-                <a href="/personal">personal</a>
+                <a href={path_var + "/personal"}>personal</a>
             </p>
             <p>
-                <a href="/cv">cv</a>
+                <a href={path_var + "/cv"}>cv</a>
             </p>
             <p>
-                <a href="/">contact</a>
+                <a href={path_var + "/"}>contact</a>
             </p>
             <></>
         </div>
