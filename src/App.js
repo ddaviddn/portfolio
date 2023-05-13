@@ -2,7 +2,7 @@ import './App.css';
 import StaticHeader from "./components/StaticHeader";
 import HomePage from "./components/HomePage/HomePage";
 
-const path_var = process.env.REACT_APP_FOR_PATH;
+// const path_var = process.env.REACT_APP_FOR_PATH;
 
 
 /////////////////////////// SECOND PAGE (PERSONAL) ////////////////////////////
@@ -19,7 +19,7 @@ const path_var = process.env.REACT_APP_FOR_PATH;
 /////////////////////////// FULL OUTPUT (ENTIRE SITE) ////////////////////////////
 function App() {
     console.log("hello")
-    console.log(path_var)
+    // console.log(path_var)
     return (<>
         <StaticHeader/>
         <div className="App">

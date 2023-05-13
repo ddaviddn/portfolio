@@ -1,6 +1,7 @@
 import '../App.css';
 
-const path_var = process.env.REACT_APP_FOR_PATH;
+// const path_var = process.env.REACT_APP_FOR_PATH;
+const path_var = ''
 
 function StaticHeader() {
     return (<>
