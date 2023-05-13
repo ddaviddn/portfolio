@@ -5,16 +5,16 @@ function StaticHeader() {
         <div className="App-header-light">
             <></>
             <p>
-                <a className="App-font-dark" href="/">home</a>
+                <a className="App-font-dark" href="/portfolio">home</a>
             </p>
             <p>
-                <a className="App-font-dark" href="/personal">personal</a>
+                <a className="App-font-dark" href="/portfolio/personal">personal</a>
             </p>
             <p>
-                <a className="App-font-dark" href="/cv">cv</a>
+                <a className="App-font-dark" href="/portfolio/cv">cv</a>
             </p>
             <p>
-                <a className="App-font-dark" href="/personal">contact</a>
+                <a className="App-font-dark" href="/portfolio/personal">contact</a>
             </p>
             <></>
         </div>
