@@ -2,7 +2,7 @@ import '../App.css';
 
 // const path_var = process.env.REACT_APP_FOR_PATH;
 // const path_var = ''
-// const path_var = 'portfolio'
+const path_var = 'portfolio'
 
 function StaticHeader() {
     return (<>
@@ -12,13 +12,13 @@ function StaticHeader() {
                 <a href="/">home</a>
             </p>
             <p>
-                <a href="/personal">personal</a>
+                <a href={path_var+"/personal"}>personal</a>
             </p>
             <p>
-                <a href="/cv">cv</a>
+                <a href={path_var+"/cv"}>cv</a>
             </p>
             <p>
-                <a href="/">contact</a>
+                <a href={"/"}>contact</a>
             </p>
             <></>
         </div>
