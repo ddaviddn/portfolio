@@ -9,7 +9,7 @@ import PersonalPage from "./components/PersonalPage/PersonalPage";
 import CVPage from "./components/CVPage/CVPage";
 
 // const path_var = process.env.REACT_APP_FOR_PATH;
-const path_var = ''
+const path_var = 'portfolio'
 
 // const router = createBrowserRouter([
 const router = createHashRouter([
