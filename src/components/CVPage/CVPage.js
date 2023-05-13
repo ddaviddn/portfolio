@@ -119,11 +119,111 @@ function CVPage() {
                             </li>
                             <li style={{textAlign: "start"}}>
                                     Presented to critical stakeholders and project-level managers, communicating closely with the
-                                    client for agile development and change requests, and building strong client relationships.
+                                client for <b>agile development </b>and change requests, and building <b>strong client relationships</b>.
                             </li>
                             <li style={{textAlign: "start"}}>
-                                    Optimized and sped up minute load times of the BI team’s Tableau dashboards into seconds by
-                                    transforming legacy data sources and queries into views with the newer modernized architecture.
+                                    Optimized and sped up <b>minute load times</b> of the BI team’s <b>Tableau</b> dashboards <b>into seconds</b> by
+                                    transforming legacy data sources and queries optimized views in a modernized architecture.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                    Developed a <b>native Snowflake data application</b> and implemented an advanced and fully dynamic <b>role access security</b> for USFoods' internal vendor management system.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="App-cv-subject-date">
+                        <p className="Subject">
+                            <p><code style={{fontWeight: "900"}}>Florida Solar Energy Center, </code><code>Orlando, FL</code></p>
+                        </p>
+                        <p className="Subject">
+                            <p><code>September 2020 - February 2021</code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-subject-date" style={{marginTop: "-72.5px"}}>
+                        <p className="Subject">
+                            <p><code style={{textDecoration: "underline"}}>Data Scientist Intern</code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-content">
+                        <ul style={{marginTop: "-25px"}}>
+                            <li style={{textAlign: "start"}}>
+                                Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help
+                                identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging
+                                photovoltaic systems to various energy sources.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="App-cv-subject-date">
+                        <p className="Subject">
+                            <p><code style={{fontWeight: "900"}}>Plansource, </code><code>Salt Lake City, UT</code></p>
+                        </p>
+                        <p className="Subject">
+                            <p><code>June 2020 - September 2020</code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-subject-date" style={{marginTop: "-72.5px"}}>
+                        <p className="Subject">
+                            <p><code style={{textDecoration: "underline"}}>Data Scientist Intern</code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-content">
+                        <ul style={{marginTop: "-25px"}}>
+                            <li style={{textAlign: "start"}}>
+                                Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help
+                                identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging
+                                photovoltaic systems to various energy sources.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="App-cv-subject-date">
+                        <p className="Subject">
+                            <p><code style={{fontWeight: "900"}}>Valencia College, </code><code>Orlando, FL</code></p>
+                        </p>
+                        <p className="Subject">
+                            <p><code>August 2018 - May 2020</code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-subject-date" style={{marginTop: "-72.5px"}}>
+                        <p className="Subject">
+                            <p><code style={{textDecoration: "underline"}}>Instructional Mathematics Tutor</code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-content">
+                        <ul style={{marginTop: "-25px"}}>
+                            <li style={{textAlign: "start"}}>
+                                Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help
+                                identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging
+                                photovoltaic systems to various energy sources.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="App-cv-subject-date">
+                        <p className="Subject" style={{marginTop: "20px"}}>
+                            <p><code>Competitions and Academic Research</code></p>
+                        </p>
+                    </div>
+                    <hr style={{borderWidth: "1px", width: "94%", marginTop: "-32.5px"}}/>
+                    <div className="App-cv-subject-date">
+                        <p className="Subject">
+                            <p><code style={{fontWeight: "900"}}>Addition Financial Credit Union
+                            {/*</code><code>Orlando, FL*/}
+                            </code>
+                            </p>
+                        </p>
+                        <p className="Subject">
+                            <p><code>January 2022 </code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-subject-date" style={{marginTop: "-72.5px"}}>
+                        <p className="Subject">
+                            <p><code style={{textDecoration: "underline"}}>2022 Consumer Credit Risk Analytics Competition</code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-content">
+                        <ul style={{marginTop: "-25px"}}>
+                            <li style={{textAlign: "start"}}>
+                                Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help
+                                identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging
+                                photovoltaic systems to various energy sources.
                             </li>
                         </ul>
                     </div>
