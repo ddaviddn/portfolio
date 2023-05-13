@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+// import {createBrowserRouter, RouterProvider,} from "react-router-dom";
+import {createHashRouter, RouterProvider,} from "react-router-dom";
 import './index.css';
 import App from './App';
 import ErrorPage from "./components/ErrorPage";
@@ -9,23 +10,24 @@ import CVPage from "./components/CVPage/CVPage";
 
 const path_var = process.env.REACT_APP_FOR_PATH;
 
-const router = createBrowserRouter([
+// const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: path_var + "/",
-        element: <App />,
-        errorElement: <ErrorPage/>
+        element: <App/>,
+        errorElement: <ErrorPage/>,
     },
     {
         path: path_var + "/personal",
-        element: <PersonalPage />
+        element: <PersonalPage/>
     },
     {
         path: path_var + "/cv",
-        element: <CVPage />
+        element: <CVPage/>
     },
     {
         path: path_var + "/personal",
-        element: <PersonalPage />
+        element: <PersonalPage/>
     }
 ])
 
