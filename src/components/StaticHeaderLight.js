@@ -19,7 +19,7 @@ function StaticHeader() {
                 <a className="App-font-dark" href="/cv">cv</a>
             </p>
             <p>
-                <a className="App-font-dark" href="/personal">contact</a>
+                <a className="App-font-dark" href="/projects">projects</a>
             </p>
             <></>
         </div>

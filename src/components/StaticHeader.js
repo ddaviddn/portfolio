@@ -18,7 +18,7 @@ function StaticHeader() {
                 <a href={path_var+"/cv"}>cv</a>
             </p>
             <p>
-                <a href={"/"}>contact</a>
+                <a href={path_var+"/projects"}>projects</a>
             </p>
             <></>
         </div>

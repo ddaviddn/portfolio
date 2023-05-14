@@ -7,6 +7,7 @@ import App from './App';
 import ErrorPage from "./components/ErrorPage";
 import PersonalPage from "./components/PersonalPage/PersonalPage";
 import CVPage from "./components/CVPage/CVPage";
+import ProjectPage from "./components/ProjectsPage/ProjectPage";
 
 // const path_var = process.env.REACT_APP_FOR_PATH;
 // const path_var = 'portfolio'
@@ -29,8 +30,8 @@ const router = createBrowserRouter([
         element: <CVPage/>
     },
     {
-        path: path_var + "/personal",
-        element: <PersonalPage/>
+        path: path_var + "/projects",
+        element: <ProjectPage/>
     }
 ])
 
