@@ -147,14 +147,14 @@
 .App-personal-text{
   position: absolute;
   font-size: 50px;
-  top: 12.5vh;
+  top: 10.5vh;
   left: 10vh;
 }
 
 .App-personal-text-small{
   position: absolute;
-  font-size: 25px;
-  top: 25vh;
+  font-size: 22px;
+  top: 22vh;
   left: 10vh;
 }
 
