@@ -58,6 +58,12 @@ function HomePage() {
                             <code style={{fontSize: '18px', marginLeft: '30px'}}>
                                 i appreciate dystopian, psychological thrillers, romance, and crime movies. <p/>
                             </code>
+                            <code style={{fontSize: '18px', marginLeft: '30px'}}>
+                                researching on up-to-date financial trends occurring in the US markets. <p/>
+                            </code>
+                            <code style={{fontSize: '18px', marginLeft: '30px'}}>
+                                i am a huge credit card points nerd and leverage points for outsized value. <p/>
+                            </code>
                         </code>
                     </p>
                     <img className="App-personal-img" src={tokyoImage} alt="vibrant_skyline"/>
