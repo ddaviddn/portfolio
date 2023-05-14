@@ -28,7 +28,7 @@ function HomePage() {
                             <code style={{marginTop: '35px', fontSize: '25px'}}>
                                 former limewire and aol instant messenger user... just kidding :)<code/>
                                 <p/>
-                                data professional by day,
+                                i am a data professional by day,
                                 graduate student at
                                 georgia <p/> institute of technology
                                 by night.
