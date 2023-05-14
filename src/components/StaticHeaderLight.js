@@ -16,13 +16,13 @@ function StaticHeader() {
                 <a className="App-font-dark" href="/projects">projects</a>
             </p>
             <p>
-                <a className="App-font-dark" href="/cv">experience</a>
+                <a className="App-font-dark" href="/experience">experience</a>
             </p>
             <p>
                 <a className="App-font-dark" href="/personal">personal</a>
             </p>
             <p>
-                <a className="App-font-dark" href="/projects">contact</a>
+                <a className="App-font-dark" href="/contact">contact</a>
             </p>
             <></>
         </div>
