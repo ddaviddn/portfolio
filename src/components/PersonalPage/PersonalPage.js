@@ -26,6 +26,8 @@ function HomePage() {
                     </p>
                     <p className="App-personal-text-small">
                         <code>
+                            former limewire and aol instant messenger user.
+                            <p/>
                             data professional by day,
                             graduate student at
                             georgia <p/> institute of technology
