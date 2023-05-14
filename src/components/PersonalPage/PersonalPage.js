@@ -50,19 +50,19 @@ function HomePage() {
                                 traveling and taking vibrant and bright photos of the world. <p/>
                             </code>
                             <code style={{fontSize: '18px', marginLeft: '30px'}}>
-                                i enjoy photos that can capture nostalgia and emotions. <p/>
+                                i enjoy photos that are nostalgic and emotional, especially with contrasting colors. <p/>
                             </code>
                             <code style={{fontSize: '18px', marginLeft: '30px'}}>
-                                watching films that are emotionally impactful and inspire creativity. <p/>
+                                watching films that are emotionally impactful and inspire thought-provoking conversation. <p/>
                             </code>
                             <code style={{fontSize: '18px', marginLeft: '30px'}}>
                                 i appreciate dystopian, psychological thrillers, romance, and crime movies. <p/>
                             </code>
                             <code style={{fontSize: '18px', marginLeft: '30px'}}>
-                                researching on up-to-date financial trends occurring in the US markets. <p/>
+                                researching on up-to-date financial trends and finding ways to save money. <p/>
                             </code>
                             <code style={{fontSize: '18px', marginLeft: '30px'}}>
-                                i am a huge credit card points nerd and leverage points for outsized value. <p/>
+                                i am a huge credit card points nerd and i am always looking for great deals. <p/>
                             </code>
                         </code>
                     </p>
