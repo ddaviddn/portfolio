@@ -147,8 +147,17 @@ function CVPage() {
                         <ul style={{marginTop: "-25px"}}>
                             <li style={{textAlign: "start"}}>
                                 Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help
-                                identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging
+                                identify and <b>optimize for business KPIs</b> (LCOE), running simulations to analyze the cost-benefits of leveraging
                                 photovoltaic systems to various energy sources.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                Using <b>outlier detection algorithms</b> with <b>statistical quality control</b> to classify when
+                                a module has a loss of power and assessing any notable features that
+                                result in photovoltaic system failures and calculating the cost of impact it creates for the company.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                Leveraging <b>probabilistic-based stochastic modeling</b> to analyze and calculate the net present value
+                                of a given photovoltaic field, analyzing the cost benefits of different solar monitoring solutions.
                             </li>
                         </ul>
                     </div>
@@ -168,9 +177,16 @@ function CVPage() {
                     <div className="App-cv-content">
                         <ul style={{marginTop: "-25px"}}>
                             <li style={{textAlign: "start"}}>
-                                Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help
-                                identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging
-                                photovoltaic systems to various energy sources.
+                                Researching into Plansource's <b>Snowflake data warehouse</b>, leveraging data mining techniques
+                                and <b>advanced SQL </b> to gain a better understanding of key customer trends in the database.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                Aligning with <b>UI/UX</b> and <b>product</b> team to run an in-depth <b>customer segmentation analysis</b>
+                                in order to better personalize and automate the <b>benefits recommendation</b> process.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                Applying <b>agile project management</b> skills to better organize and meet project deadlines, later
+                                presenting findings and <b>data visualizations </b> to key stakeholders and other department leads.
                             </li>
                         </ul>
                     </div>
@@ -221,9 +237,48 @@ function CVPage() {
                     <div className="App-cv-content">
                         <ul style={{marginTop: "-25px"}}>
                             <li style={{textAlign: "start"}}>
-                                Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help
-                                identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging
-                                photovoltaic systems to various energy sources.
+                                Placed <b>2nd</b> in a <b>$10,000</b> analytics competition to analyze financial data to gain data-driven,
+                                actionable insights for automating the process of an end user’s credit limit increase.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                <b>Present analytics solutions</b> and test cases to competition judges comprised of data scientists, business
+                                intelligence engineers, and C-level executives, later showcasing results at an analytics conference.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                Extensively <b>pre-processed</b> the credit data, ran a thorough <b>exploratory data analysis</b>, and created
+                                a <b>matrix-based solution</b> based on historical data and current industry weighing schemes.
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="App-cv-subject-date">
+                        <p className="Subject">
+                            <p><code style={{fontWeight: "900"}}>Natural Language Processing with Big Data
+                                {/*</code><code>Orlando, FL*/}
+                            </code>
+                            </p>
+                        </p>
+                        <p className="Subject">
+                            <p><code>August 2021 </code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-subject-date" style={{marginTop: "-72.5px"}}>
+                        <p className="Subject">
+                            <p><code style={{textDecoration: "underline"}}>Undergraduate Researcher under Dr. Adan Vela</code></p>
+                        </p>
+                    </div>
+                    <div className="App-cv-content">
+                        <ul style={{marginTop: "-25px"}}>
+                            <li style={{textAlign: "start"}}>
+                                Exploring current machine learning techniques, using <b>NLP models</b> to analyze fanatic language within the internal Reddit database,
+                                solving <b>real-world homeland security</b> problems through text analysis.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                Working with <b>semi-structured data</b> that was <b>web-scraped </b> from political subreddit pages, the goal of the research project was
+                                to use natural language processing to analyze and compare the language used in far-left/far-right political
+                                threads.
+                            </li>
+                            <li style={{textAlign: "start"}}>
+                                Using <b>MongoDB</b> and python for data collection, data storage, and data retrieval, for the method of analyzing our text, using CBOW, SG, and visualizing the words in Word2Vec.
                             </li>
                         </ul>
                     </div>
