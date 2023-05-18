@@ -278,7 +278,7 @@ function CVPage() {
                                 threads.
                             </li>
                             <li style={{textAlign: "start"}}>
-                                Using <b>MongoDB</b> and python for data collection, data storage, and data retrieval, for the method of analyzing our text, using CBOW, SG, and visualizing the words in Word2Vec.
+                                Using <b>MongoDB</b> and <b>python</b> for data collection, data storage, and data retrieval, using <b>CBOW</b>, <b>Skip-Gram</b> to analyze text, and text visualizations with <b>Word2Vec</b>.
                             </li>
                         </ul>
                     </div>
