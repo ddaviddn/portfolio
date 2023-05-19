@@ -76,41 +76,81 @@ function HomePage() {
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={tokyoSkyline} alt="jap_night"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Tokyo, Skytree
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={japanNightImage} alt="jap_night"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Shinjuku,
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={chicagoApt} alt="chicago"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Chicago, River North
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">
                 <div className="App-body-light-full" >
                     <img className="App-personal-follow-img" src={indianaBeach2} alt="rooftop"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Indiana, Washington Park
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={korCouple} alt="rooftop"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Korea,
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={indianaBeach} alt="rooftop"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Indiana, Old Lighthouse Museum
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={indianaCamp} alt="rooftop"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Indiana,
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={chicagoSushi} alt="rooftop"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Chicago, SUSHI DOKKU
+                        </code>
+                    </div>
                 </div>
             </div>
             {/*<div className="section">*/}
@@ -121,6 +161,11 @@ function HomePage() {
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={orlando} alt="rooftop"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Orlando, Downtown
+                        </code>
+                    </div>
                 </div>
             </div>
             {/*<div className="section">*/}
@@ -131,11 +176,21 @@ function HomePage() {
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={crHotel} alt="rooftop"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Costa Rica, Marriott
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">
                 <div className="App-body-light-full">
                     <img className="App-personal-follow-img" src={crOffice} alt="rooftop"/>
+                    <div>
+                        <code className="App-personal-img-text">
+                            Costa Rica, Hakkōda
+                        </code>
+                    </div>
                 </div>
             </div>
             <div className="section">

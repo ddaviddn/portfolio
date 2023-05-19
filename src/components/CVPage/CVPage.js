@@ -190,28 +190,28 @@ function CVPage() {
                             </li>
                         </ul>
                     </div>
-                    <div className="App-cv-subject-date">
-                        <p className="Subject">
-                            <p><code style={{fontWeight: "900"}}>Valencia College, </code><code>Orlando, FL</code></p>
-                        </p>
-                        <p className="Subject">
-                            <p><code>August 2018 - May 2020</code></p>
-                        </p>
-                    </div>
-                    <div className="App-cv-subject-date" style={{marginTop: "-72.5px"}}>
-                        <p className="Subject">
-                            <p><code style={{textDecoration: "underline"}}>Instructional Mathematics Tutor</code></p>
-                        </p>
-                    </div>
-                    <div className="App-cv-content">
-                        <ul style={{marginTop: "-25px"}}>
-                            <li style={{textAlign: "start"}}>
-                                Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help
-                                identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging
-                                photovoltaic systems to various energy sources.
-                            </li>
-                        </ul>
-                    </div>
+                    {/*<div className="App-cv-subject-date">*/}
+                    {/*    <p className="Subject">*/}
+                    {/*        <p><code style={{fontWeight: "900"}}>Valencia College, </code><code>Orlando, FL</code></p>*/}
+                    {/*    </p>*/}
+                    {/*    <p className="Subject">*/}
+                    {/*        <p><code>August 2018 - May 2020</code></p>*/}
+                    {/*    </p>*/}
+                    {/*</div>*/}
+                    {/*<div className="App-cv-subject-date" style={{marginTop: "-72.5px"}}>*/}
+                    {/*    <p className="Subject">*/}
+                    {/*        <p><code style={{textDecoration: "underline"}}>Instructional Mathematics Tutor</code></p>*/}
+                    {/*    </p>*/}
+                    {/*</div>*/}
+                    {/*<div className="App-cv-content">*/}
+                    {/*    <ul style={{marginTop: "-25px"}}>*/}
+                    {/*        <li style={{textAlign: "start"}}>*/}
+                    {/*            Combining <b>classical statistical testing</b> and <b>modern machine learning techniques</b> to help*/}
+                    {/*            identify and <b>optimize for their key KPIs</b>, then simulating the cost-benefits of leveraging*/}
+                    {/*            photovoltaic systems to various energy sources.*/}
+                    {/*        </li>*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
                     <div className="App-cv-subject-date">
                         <p className="Subject" style={{marginTop: "20px"}}>
                             <p><code>Competitions and Academic Research</code></p>
@@ -263,7 +263,7 @@ function CVPage() {
                     </div>
                     <div className="App-cv-subject-date" style={{marginTop: "-72.5px"}}>
                         <p className="Subject">
-                            <p><code style={{textDecoration: "underline"}}>Undergraduate Researcher under Dr. Adan Vela</code></p>
+                            <p><code style={{textDecoration: "underline"}}>Undergraduate NLP Researcher </code></p>
                         </p>
                     </div>
                     <div className="App-cv-content">

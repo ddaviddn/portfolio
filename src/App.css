@@ -154,6 +154,7 @@
 .App-personal-text-small{
   position: absolute;
   font-size: 22px;
+  width: 45%;
   top: 22vh;
   left: 10vh;
 }
@@ -161,8 +162,6 @@
 .App-personal-text-smallest{
   position: absolute;
   font-size: 15px;
-  /*top: 30vh;*/
-  /*left: 10vh;*/
 }
 
 .App-personal-img{
@@ -170,19 +169,28 @@
   top: 12.5vh;
   right: 20vh;
   border-radius: 2px;
-  height: 85%;
+  width: 31%;
+  /*height: auto;*/
+  /*width: auto\9;*/
   opacity: 1;
   transition: .5s ease;
 }
 
 .App-personal-follow-img{
   position: absolute;
-  /*top: 12.5vh;*/
-  /*right: 20vh;*/
-  border-radius: 5px;
+  border-radius: 1.25px;
   height: 90%;
   opacity: 1;
   transition: .5s ease;
+}
+
+.App-personal-follow-img div{
+  position: absolute;
+  /*bottom: 10;*/
+  right: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
 }
 
 .App-personal-img:hover {
@@ -190,7 +198,22 @@
 }
 
 .App-personal-follow-img:hover {
-  opacity: 0.9;
+  opacity: 0.55;
+}
+
+.App-personal-follow-img:hover div{
+  /*width: 150px;*/
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.1;
+}
+
+.App-personal-img-text{
+  font-family: 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: 60px;
+  color: orangered;
+  /*color: white;*/
 }
 
 .App-cv-body{
