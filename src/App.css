@@ -179,7 +179,7 @@
 .App-personal-follow-img{
   position: absolute;
   border-radius: 1.25px;
-  height: 90%;
+  max-height: 90%;
   opacity: 1;
   transition: .5s ease;
 }
@@ -194,7 +194,7 @@
 }
 
 .App-personal-img:hover {
-  opacity: 0.9;
+  opacity: 0;
 }
 
 .App-personal-follow-img:hover {
