@@ -154,7 +154,7 @@
 .App-personal-text-small{
   position: absolute;
   font-size: 22px;
-  width: 45%;
+  /*width: 45%;*/
   top: 22vh;
   left: 10vh;
 }
@@ -164,16 +164,30 @@
   font-size: 15px;
 }
 
-.App-personal-img{
+@media screen and (min-width: 0px) {
+  .App-personal-img {
+    position: absolute;
+    top: 12.5vh;
+    right: 20vh;
+    border-radius: 2px;
+    height: 80vh;
+    opacity: 0;
+    transition: 1s ease;
+  }
+}
+
+@media screen and (min-width: 1845px) {
+.App-personal-img {
   position: absolute;
   top: 12.5vh;
   right: 20vh;
   border-radius: 2px;
-  width: 31%;
+  height: 80vh;
   /*height: auto;*/
   /*width: auto\9;*/
   opacity: 1;
   transition: .5s ease;
+}
 }
 
 .App-personal-follow-img{
@@ -193,9 +207,9 @@
   transition: visibility 0s, opacity 0.5s linear;
 }
 
-.App-personal-img:hover {
-  opacity: 0;
-}
+/*.App-personal-img:hover {*/
+/*  opacity: 0;*/
+/*}*/
 
 .App-personal-follow-img:hover {
   opacity: 0.55;
