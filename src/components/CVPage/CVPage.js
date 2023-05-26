@@ -1,5 +1,5 @@
 import '../../App.css';
-import '../../CV_text.css'
+import './CV_text.css'
 import StaticHeader from "../StaticHeader";
 
 function CVPage() {
