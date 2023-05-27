@@ -148,7 +148,7 @@ function HomePage() {
                     <img className="App-personal-follow-img" src={chicagoSushi} alt="rooftop"/>
                     <div>
                         <code className="App-personal-img-text">
-                            Chicago, SUSHIDOKKU
+                            Chicago, DOKKU
                         </code>
                     </div>
                 </div>
