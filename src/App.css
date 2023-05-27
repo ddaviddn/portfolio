@@ -16,6 +16,21 @@
   /*--pg1-font-color: var(--dark-col-main);*/
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 50px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #242124;
+  border-radius: 50px;
+}
+
 .App-header{
   background-color: var(--pg1-bg-color);
   /*border-bottom: var(--pg1-font-color);*/

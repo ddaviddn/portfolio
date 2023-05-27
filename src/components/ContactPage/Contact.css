@@ -34,3 +34,81 @@
         background: var(--pg1-bg-color);
     }
 }
+
+.App-contact-text-box {
+    border-radius: 25px;
+    border-color: black;
+    border-width: 3px;
+    font-size: 15px;
+    padding: 15px;
+    width: 90%;
+    background-color: #94dfff;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-contact-forms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-between;
+    /*margin-right: 7.5%;*/
+    width: 90%;
+}
+
+@media screen and (min-width: 100px) {
+    .App-contact-forms-body {
+        display: flex;
+        flex-direction: row;
+        /*flex-wrap: nowrap;*/
+        justify-content: center;
+        /*align-items: flex-start;*/
+        /*align-content: space-between;*/
+        /*padding-left: 5%;*/
+        /*margin-right: 5%;*/
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .App-contact-forms-body {
+        display: flex;
+        flex-direction: row;
+        /*flex-wrap: nowrap;*/
+        justify-content: center;
+        /*align-items: flex-start;*/
+        /*align-content: space-between;*/
+        margin-left: 15px;
+        width: 100%;
+    }
+}
+
+.App-contact-text-body {
+    border-radius: 50px;
+    border-color: black;
+    border-width: 3px;
+    margin-left: 2%;
+    font-size: 15px;
+    padding: 20px;
+    width: 90%;
+    background-color: #fa6f01;
+    color: #242124;
+    resize: vertical;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App-contact-submit {
+    background-color: var(--pg1-bg-color);
+    /*color: var(--pg1-bg-color);*/
+    /*background-color: var(--pg1-font-color);*/
+    color: var(--pg1-font-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 150px;
+    border-radius: 30px;
+    border-color: var(--pg1-font-color);
+}
