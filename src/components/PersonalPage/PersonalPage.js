@@ -30,10 +30,9 @@ function HomePage() {
                                 former limewire and aol instant messenger user... just kidding :]
                                 </code>
                             <p/>
-                            i am a data professional by day,
+                            data professional by day, <p/>
                             graduate student at
-                            georgia <p/> institute of technology
-                            by night.
+                            georgia tech by night.
                         </code>
                         <p/>
                         <hr style={{width: '100%'}}/>

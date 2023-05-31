@@ -42,7 +42,8 @@
     font-size: 15px;
     padding: 15px;
     width: 90%;
-    background-color: #94dfff;
+    /*background-color: #94dfff;*/
+    background-color: var(--pg1-font-color);
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
@@ -93,7 +94,8 @@
     font-size: 15px;
     padding: 20px;
     width: 90%;
-    background-color: #fa6f01;
+    /*background-color: #fa6f01;*/
+    background-color: var(--pg1-font-color);
     color: #242124;
     resize: vertical;
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
