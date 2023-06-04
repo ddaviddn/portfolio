@@ -3,6 +3,13 @@ import './Contact.css';
 import {useState} from "react";
 import StaticHeader from "../StaticHeader";
 
+// let ElasticEmail = require('@elasticemail/elasticemail-client');
+// let defaultClient = ElasticEmail.ApiClient.instance;
+// let apikey = defaultClient.authentications['apikey'];
+// apikey.apiKey = "";
+//
+// let api = new ElasticEmail.EmailsAPI();
+
 function ContactPage() {
     const [formData, setFormData] = useState({
         firstName: "",
