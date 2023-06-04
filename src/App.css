@@ -158,8 +158,10 @@
 .App-projects-streamlit{
   width: 100vh;
   height: 83vh;
-  border-radius: 10px;
+  border-radius: 7px;
   padding-bottom: 1px;
+  border-width: 2px;
+  border-color: #272727;
 }
 
 .section{
