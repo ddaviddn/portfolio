@@ -10,5 +10,11 @@
     "imageDesc": "car_comparison",
     "title": "Car Payments Comparison",
     "desc": "Car Payments Calculator for comparing two different car payment options! Built using Google Sheets and deployed on Google."
+  },
+  {
+    "link": "/projects/under_construction",
+    "imageDesc": "under_construction",
+    "title": "Under Construction",
+    "desc": "Currently working on embedding a new project!"
   }
 ]

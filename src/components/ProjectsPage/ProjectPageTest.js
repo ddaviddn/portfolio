@@ -6,11 +6,12 @@ import projectJSON from "./ProjectBuild.json";
 
 // importing project images
 import financialShot from "./assets/financial_calculator.png";
-import carComparisonShot from "./assets/car_comparison.png"
+import carComparisonShot from "./assets/car_comparison.png";
+import constructionShot from "./assets/construction.svg";
 
 function ProjectPageTest() {
     const projects = projectJSON;
-    const imgArray = [financialShot, carComparisonShot]
+    const imgArray = [financialShot, carComparisonShot, constructionShot]
     let projectsList = []
 
     for (let i = 0; i < projects.length; i++) {
@@ -22,7 +23,7 @@ function ProjectPageTest() {
             desc={projects[i].desc}
         />)
     }
-    
+
     return (<>
         <StaticHeaderLight/>
         <div className="App-body-light">
