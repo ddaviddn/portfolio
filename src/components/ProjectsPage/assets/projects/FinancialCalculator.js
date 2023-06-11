@@ -1,7 +1,7 @@
-import '../../App.css';
-import StaticHeaderLight from "../StaticHeaderLight";
+import '../../../../App.css';
+import StaticHeaderLight from "../../../StaticHeaderLight";
 
-function ProjectPage() {
+function FinancialCalculator() {
     return (<>
         <StaticHeaderLight/>
         <div className="App-body-light">
@@ -20,4 +20,4 @@ function ProjectPage() {
     </>);
 }
 
-export default ProjectPage;
+export default FinancialCalculator;

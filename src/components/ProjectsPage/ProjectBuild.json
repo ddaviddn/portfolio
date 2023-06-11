@@ -1,0 +1,14 @@
+[
+  {
+    "link": "/projects/financial_calculator",
+  "imageDesc": "financial_calc",
+  "title": "Financial Investments Calculator",
+  "desc": "Financial Calculator for achieving your financial goals! Built using Python (matplotlib, pandas) and deployed on streamlit cloud."
+  },
+  {
+    "link": "/projects/under_construction",
+    "imageDesc": "car_comparison",
+    "title": "Under Construction",
+    "desc": "Currently working on embedding a new project!"
+  }
+]
