@@ -164,6 +164,15 @@
   border-color: #272727;
 }
 
+.App-projects-google-sheets{
+  width: 80%;
+  height: 83vh;
+  border-radius: 7px;
+  padding-bottom: 1px;
+  border-width: 1px;
+  border-color: #272727;
+}
+
 .section{
   scroll-snap-align: start;
 }

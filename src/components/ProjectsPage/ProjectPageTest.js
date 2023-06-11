@@ -22,15 +22,7 @@ function ProjectPageTest() {
             desc={projects[i].desc}
         />)
     }
-    // projects.forEach(item => {
-    //     imgArray.push()
-    //     projectsList.push(<ProjectComponent
-    //         image={financialImg}
-    //         imageDesc={item.imageDesc}
-    //         title={item.title}
-    //         desc={item.desc}
-    //         />)
-    // })
+    
     return (<>
         <StaticHeaderLight/>
         <div className="App-body-light">

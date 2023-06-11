@@ -6,9 +6,9 @@
   "desc": "Financial Calculator for achieving your financial goals! Built using Python (matplotlib, pandas) and deployed on streamlit cloud."
   },
   {
-    "link": "/projects/under_construction",
+    "link": "/projects/car_comparison",
     "imageDesc": "car_comparison",
-    "title": "Under Construction",
-    "desc": "Currently working on embedding a new project!"
+    "title": "Car Payments Comparison",
+    "desc": "Car Payments Calculator for comparing two different car payment options! Built using Google Sheets and deployed on Google."
   }
 ]
