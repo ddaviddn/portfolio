@@ -13,6 +13,7 @@ import ContactPage from "./components/ContactPage/ContactPage";
 import ProjectPageTest from "./components/ProjectsPage/ProjectPageTest";
 import FinancialCalculator from "./components/ProjectsPage/assets/projects/FinancialCalculator";
 import CarComparison from "./components/ProjectsPage/assets/projects/CarComparison";
+import MarvivaApp from "./components/ProjectsPage/assets/projects/MarvivaApp";
 
 // const path_var = process.env.REACT_APP_FOR_PATH;
 // const path_var = 'portfolio'
@@ -57,6 +58,7 @@ root.render(
                 <Route path="/projects" element={<ProjectPageTest />}/>
                 <Route path="/projects/financial_calculator" element={<FinancialCalculator />}/>
                 <Route path="/projects/car_comparison" element={<CarComparison />}/>
+                <Route path="/projects/marviva_app" element={<MarvivaApp />}/>
                 <Route path="/contact" element={<ContactPage />}/>
                 <Route path="*" element={<ErrorPage />}/>
             </Routes>

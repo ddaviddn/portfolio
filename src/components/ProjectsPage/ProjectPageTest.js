@@ -7,11 +7,12 @@ import projectJSON from "./ProjectBuild.json";
 // importing project images
 import financialShot from "./assets/financial_calculator.png";
 import carComparisonShot from "./assets/car_comparison.png";
+import marvivaShot from "./assets/marviva_arch.png";
 import constructionShot from "./assets/construction.svg";
 
 function ProjectPageTest() {
     const projects = projectJSON;
-    const imgArray = [financialShot, carComparisonShot, constructionShot]
+    const imgArray = [financialShot, carComparisonShot, marvivaShot, constructionShot]
     let projectsList = []
 
     for (let i = 0; i < projects.length; i++) {

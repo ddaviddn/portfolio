@@ -3,13 +3,19 @@
     "link": "/projects/financial_calculator",
   "imageDesc": "financial_calc",
   "title": "Financial Investments Calculator",
-  "desc": "Financial Calculator for achieving your financial goals! Built using Python (matplotlib, pandas) and deployed on streamlit cloud."
+  "desc": "Financial Calculator for achieving your financial goals! Built using Python (matplotlib, pandas) and deployed on Streamlit Cloud."
   },
   {
     "link": "/projects/car_comparison",
     "imageDesc": "car_comparison",
     "title": "Car Payments Comparison",
     "desc": "Car Payments Calculator for comparing two different car payment options! Built using Google Sheets and deployed on Google."
+  },
+  {
+    "link": "/projects/marviva_app",
+    "imageDesc": "marviva_arch",
+    "title": "MarViva Ocean Traceability App",
+    "desc": "App for ocean monitoring and marine observation! Building a mobile application to help manage marine observability in South America through data collection. Built using React Native, Node.js, and managed with Expo."
   },
   {
     "link": "/projects/under_construction",
