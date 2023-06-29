@@ -203,24 +203,61 @@
   scroll-snap-align: start;
 }
 
-.App-personal-text{
-  position: absolute;
-  font-size: 50px;
-  top: 10.5vh;
-  left: 10vh;
+@media screen and (min-width: 0px) {
+  .App-personal-text {
+    /*transform: scale(0.9);*/
+    position: absolute;
+    font-size: 40px;
+    top: 10.5vh;
+    left: 2vh;
+  }
 }
 
-.App-personal-text-small{
-  position: absolute;
-  font-size: 22px;
-  /*width: 45%;*/
-  top: 22vh;
-  left: 10vh;
+@media screen and (min-width: 0px) {
+  .App-personal-text-small{
+    /*transform: scale(0.9);*/
+    position: absolute;
+    font-size: 18px;
+    /*width: 45%;*/
+    top: 22vh;
+    left: 2vh;
+  }
 }
 
-.App-personal-text-smallest{
-  position: absolute;
-  font-size: 15px;
+@media screen and (min-width: 0px) {
+  .App-personal-text-smallest {
+    /*transform: scale(0.9);*/
+    position: absolute;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .App-personal-text {
+    /*transform: scale(1.11111111);*/
+    position: absolute;
+    font-size: 50px;
+    top: 10.5vh;
+    left: 8vh;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .App-personal-text-small{
+    /*transform: scale(1.11111111);*/
+    position: absolute;
+    font-size: 22px;
+    /*width: 45%;*/
+    top: 22vh;
+    left: 8vh;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .App-personal-text-smallest {
+    position: absolute;
+    font-size: 15px;
+  }
 }
 
 @media screen and (min-width: 0px) {
@@ -235,58 +272,79 @@
   }
 }
 
-@media screen and (min-width: 1845px) {
-.App-personal-img {
-  position: absolute;
-  top: 12.5vh;
-  right: 20vh;
-  border-radius: 2px;
-  height: 80vh;
-  /*height: auto;*/
-  /*width: auto\9;*/
-  opacity: 1;
-  transition: .5s ease;
-}
-}
-
-.App-personal-follow-img{
-  position: absolute;
-  border-radius: 1.25px;
-  max-height: 90%;
-  opacity: 1;
-  transition: .5s ease;
+@media screen and (min-width: 1800px) {
+  .App-personal-img {
+    position: absolute;
+    top: 12.5vh;
+    right: 20vh;
+    border-radius: 2px;
+    height: 80vh;
+    /*height: auto;*/
+    /*width: auto\9;*/
+    opacity: 1;
+    transition: .5s ease;
+  }
 }
 
-.App-personal-follow-img div{
-  position: absolute;
-  /*bottom: 10;*/
-  right: 0;
-  visibility: hidden;
-  -webkit-transition: visibility 0s, opacity 0.5s linear;
-  transition: visibility 0s, opacity 0.5s linear;
+@media screen and (min-width: 0px) {
+  .App-personal-follow-img{
+    position: absolute;
+    border-radius: 1.25px;
+    max-width: 95%;
+    opacity: 1;
+    transition: .5s ease;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .App-personal-follow-img{
+    position: absolute;
+    border-radius: 1.25px;
+    max-height: 90%;
+    opacity: 1;
+    transition: .5s ease;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .App-personal-follow-img div {
+    position: absolute;
+    /*bottom: 10;*/
+    right: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear;
+    transition: visibility 0s, opacity 0.5s linear;
+  }
 }
 
 /*.App-personal-img:hover {*/
 /*  opacity: 0;*/
 /*}*/
 
-.App-personal-follow-img:hover {
-  opacity: 0.55;
+
+@media screen and (min-width: 1000px) {
+  .App-personal-follow-img:hover {
+    opacity: 0.55;
+  }
 }
 
-.App-personal-follow-img:hover div{
-  /*width: 150px;*/
-  padding: 8px 15px;
-  visibility: visible;
-  opacity: 0.1;
+@media screen and (min-width: 1000px) {
+  .App-personal-follow-img:hover div {
+    /*width: 150px;*/
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.1;
+  }
 }
 
-.App-personal-img-text{
-  font-family: 'Times New Roman', serif;
-  font-weight: bolder;
-  font-size: 60px;
-  color: orangered;
-  /*color: white;*/
+@media screen and (min-width: 1000px) {
+  .App-personal-img-text {
+    font-family: 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 60px;
+    color: orangered;
+    /*color: white;*/
+  }
 }
 
 .App-cv-body{

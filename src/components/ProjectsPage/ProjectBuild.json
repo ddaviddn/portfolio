@@ -18,6 +18,12 @@
     "desc": "App for ocean monitoring and marine observation! Building a mobile application to help manage marine observability in South America through data collection. Built using React Native, Node.js, and managed with Expo."
   },
   {
+    "link": "/projects/addition_competition",
+    "imageDesc": "addition_competition",
+    "title": "2022 Consumer Credit Risk Analytics Competition",
+    "desc": "Corporate Presentation for Addition Financial Credit Union's 2022 Analytics Competition. Placed 2nd in $10,000 analytics competition to analyze financial data, gaining data-driven, actionable insights for automating the process of a consumer's credit limit increase. "
+  },
+  {
     "link": "/projects/under_construction",
     "imageDesc": "under_construction",
     "title": "Under Construction",

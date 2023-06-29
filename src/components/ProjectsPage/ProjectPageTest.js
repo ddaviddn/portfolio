@@ -9,10 +9,11 @@ import financialShot from "./assets/financial_calculator.png";
 import carComparisonShot from "./assets/car_comparison.png";
 import marvivaShot from "./assets/marviva_arch.png";
 import constructionShot from "./assets/construction.svg";
+import additionShot from "./assets/addition_financial.png";
 
 function ProjectPageTest() {
     const projects = projectJSON;
-    const imgArray = [financialShot, carComparisonShot, marvivaShot, constructionShot]
+    const imgArray = [financialShot, carComparisonShot, marvivaShot, additionShot, constructionShot]
     let projectsList = []
 
     for (let i = 0; i < projects.length; i++) {
